@@ -6,7 +6,7 @@ Call a sequence X[1..n] of numbers bitonic if there is an index i with 1 < i < n
 Input format: first line is a single number n, the following line consists of n numbers that is the array A[1..n]
 
 ## Solution Explanation
-The Longest Bitonic Sequence is the longest subsequence of a given sequence in which the subsequence’s elements are first in increasing order then in decreasing order.
+The Longest Bitonic Sequence of a given array is the longest subsequence in which the subsequence’s elements are first in increasing order then in decreasing order.
 
 To find it you'll need two subsequences
 * Longest Increasing Subsequence
