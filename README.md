@@ -14,7 +14,9 @@ To find it you'll need two subsequences
 
 We will find the LIS of the first half of our input of numbers so from [0...i]. And then we will find the LDS of our last half of our input of numbers, from [i...n].
 
-The length of the Longest Bitonic Sequence is then the max of LIS[i] + LDS[i]-1
+The length of the Longest Bitonic Sequence is then the max of LIS[i] + LDS[i]-1.
 Hence in our code we have:
+	
 	`LBS = max(LBS, LIS[i] + LDS[i]-1)`
+
 We iterate through nums setting LBS to the max between itself and the value from the formula above. 
